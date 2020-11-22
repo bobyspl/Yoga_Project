@@ -1,0 +1,76 @@
+
+.jumbotron.fixed {
+    background: url('../img/background-fixed.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10rem 0;
+    border-radius: 0;
+}
+
+.jumbotron.bg-custom {
+    background: url('../img/bg-custom.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 95vh;
+    border-radius: 0; 
+}
+
+.bg-margin {
+    height: 100%;
+}
+
+.ul-footer-custom  {
+    list-style-type: none;
+
+}
+
+footer li {
+    padding: 1.5rem;
+}
+
+footer li .fab {
+    font-size: 2rem;
+}
+
+footer li .fab:hover {
+    color: black;
+}
+@media (min-width: 576px) { 
+    button {
+        position: absolute;
+        top: 25px;
+        right: 15px;
+    }
+    nav {
+        margin-top: -10px;
+    }
+}
+
+/******
+// Extra small devices (portrait phones, less than 576px)
+@media (min-width: 576px) { 
+    
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
+ }
+
+ 
+
+
